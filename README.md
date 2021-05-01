@@ -46,8 +46,25 @@ Keras is a powerful and easy-to-use free open source Python library for developi
 In line with the information mentioned above, it is aimed to create the best model.
 
 1. Load Data
-2. Define Keras Model 3. Compile Keras Model 4. Fit Keras Model
-5. Evaluate Keras Model 6. Tie It All Together
+2. Define Keras Model 
+3. Compile Keras Model 
+4. Fit Keras Model
+5. Evaluate Keras Model 
+6. Tie It All Together
 7. Make Predictions
 
+## Detecting Faces with and without Masks:
+Mask detecting will be performed with opencv by taking the created model.
 
+### What is OpenCV?
+OpenCV is a huge open source library for computer vision, machine learning, and image processing, and now plays an important role in real-time operation, which is so important in today’s systems. Using it, it can process images and videos to identify objects, faces, and even a person’s handwriting. When Python is integrated with various libraries such as Numpy, it can handle OpenCV array structure for analysis. The vector space is used to describe the image pattern and its various properties and mathematical operations are performed on these properties.
+
+![OpenCV](https://ars.els-cdn.com/content/image/1-s2.0-S2214785320405826-gr6.jpg)
+
+## REFERENCE
+
+* > https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv- keras-tensorflow-and-deep-learning/
+* > https://towardsdatascience.com/what-are-hyperparameters-and-how-to-tune-the-hyperparameter in-a-deep-neural-network-d0604917584a
+* > https://machinelearningmastery.com/tutorial-first-neural-network-python-keras/
+* > https://www.geeksforgeeks.org/opencv-overview/
+* > https://pythonprogramming.net/convolutional-neural-network-deep-learning-python- tensorflow-keras/
