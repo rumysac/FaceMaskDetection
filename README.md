@@ -15,4 +15,4 @@ Convolutional Neural Networks are very similar to ordinary Neural Networks in th
 
 So what is changing? ConvNet architectures make a clear assumption that the inputs are images, which allows us to encode certain properties into the architecture. These then make it more efficient to implement the forward function and greatly reduce the amount of parameters in the network.
 
-![CNN_Architecture](https://miro.medium.com/max/1462/1*tC3At10vx1SHqC88jUfNZA.png)
+                                       ![CNN_Architecture](https://miro.medium.com/max/1462/1*tC3At10vx1SHqC88jUfNZA.png)
