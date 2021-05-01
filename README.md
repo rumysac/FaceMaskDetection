@@ -1,2 +1,5 @@
 # FaceMaskDetection
+
 ## Introduction
+As of 2020, the COVID-19 pandemic has been mind-boggling as an event that surprised the world and completely changed it. Strict measures are being taken to prevent the spread of the disease. From the most basic hygiene standards to treatment in hospitals, people are doing their best for the safety of themselves and the community; face masks are one of the personal protective equipment. People wear face masks when they leave their homes, and authorities strictly control people’s wearing face masks when in groups and in public places. It is very important to check if people adhere to this basic safety principle. Face mask detector system is applied to control this. Face mask detection means determining whether a person is wearing a mask. The first step in recognizing the presence of a facial mask is detecting the face, which breaks down the strategy into two parts: detecting faces and masks on those faces.
+In this project, a face mask detector that can distinguish between masked faces and un- masked faces will be developed and the best model will be created for this.
