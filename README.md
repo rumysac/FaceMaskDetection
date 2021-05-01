@@ -19,4 +19,35 @@ So what is changing? ConvNet architectures make a clear assumption that the inpu
 
 There are parameters that need to be considered while creating a good model. These are: learning speed, optimization algorithm, epoch number, activation function, dropout value, number of neurons in layers etc.
 
-* sdnd
+* Activation Function:
+Activation functions are used to introduce nonlinearity to models, which allows deep learning models to learn nonlinear prediction boundaries. Generally, the rec- tifier activation function is the most popular. Sigmoid is used in the output layer while making binary predictions. Softmax is used in the output layer while making multi-class predictions.
+
+![Activation_Function](https://miro.medium.com/max/1452/1*XxxiA0jJvPrHEJHD4z893g.png)
+
+* Learning Rate:
+
+![Learning_Rate](https://www.jeremyjordan.me/content/images/2018/02/Screen-Shot-2018-02-24-at-11.47.09-AM.png)
+
+Learning rate defines how quickly a network updates its parameters. Low learn- ing speed slows down the learning process but merges seamlessly. Higher learning speed accelerates learning but may not converge. Usually a decaying Learning rate is preferred.
+
+* Momentum:
+Momentum helps to know the direction of the next step with the knowledge of previous steps. It helps prevent oscillations. A typical momentum selection is be- tween 0.5 and 0.9.
+
+* Number of Epochs:
+The number of epochs is the number of times all training data is shown on the network during training. Increase the number of epochs until the verification accu- racy begins to decrease even when training accuracy increases (overfitting).
+
+* Batch Size:
+Mini batch size is the number of subsamples given to the network after the pa- rameter update has occurred. A good default for batch size might be 32. Also try 32, 64, 128, 256 and so on.
+
+* Dropout Rate:
+The default interpretation of the drop hyperparameter is the possibility to train a particular node in one layer; where 1.0 means no dropout and 0.0 means no exit from the layer. A good value for a drop in a hidden layer is between 0.5 and 0.8. Input tiers use a larger drop-out rate, such as 0.8.
+
+Keras is a powerful and easy-to-use free open source Python library for developing and evaluating deep learning models.
+In line with the information mentioned above, it is aimed to create the best model.
+
+1. Load Data
+2. Define Keras Model 3. Compile Keras Model 4. Fit Keras Model
+5. Evaluate Keras Model 6. Tie It All Together
+7. Make Predictions
+
+
