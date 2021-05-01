@@ -63,8 +63,7 @@ OpenCV is a huge open source library for computer vision, machine learning, and 
 
 ## REFERENCE
 
-* https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv- keras-tensorflow-and-deep-learning/
-* https://towardsdatascience.com/what-are-hyperparameters-and-how-to-tune-the-hyperparameter in-a-deep-neural-network-d0604917584a
+* > https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/
 * > https://machinelearningmastery.com/tutorial-first-neural-network-python-keras/
 * > https://www.geeksforgeeks.org/opencv-overview/
-* > https://pythonprogramming.net/convolutional-neural-network-deep-learning-python- tensorflow-keras/
+* > https://pythonprogramming.net/convolutional-neural-network-deep-learning-python-tensorflow-keras/
