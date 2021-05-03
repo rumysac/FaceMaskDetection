@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}\parindent 0pt\relax {\textbf {INTRODUCTION}}}{2}{}%
+\contentsline {section}{\numberline {2}PROBLEM STATEMENT}{2}{}%
+\contentsline {section}{\numberline {3}TECHNICAL APPROACH}{3}{}%
+\contentsline {subsection}{\numberline {3.1}Convolutional Neural Network Architecture:}{3}{}%
+\contentsline {subsection}{\numberline {3.2}Detecting Faces with and without Masks:}{5}{}%
+\contentsline {section}{\numberline {4}REFERENCE}{6}{}%
