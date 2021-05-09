@@ -1,5 +1,5 @@
 # FaceMaskDetection 
-![FaceMaskDetection](https://github.com/rumysac/FaceMaskDetection/blob/main/outputs/Screen%20Shot%202021-05-01%20at%2017.35.40.png)
+![FaceMaskDetection](https://raw.githubusercontent.com/rumysac/FaceMaskDetection/main/Outputs/Screen%20Shot%202021-05-01%20at%2017.35.40.png)
 ### The Face Mask Detection system created with OpenCV, Keras / TensorFlow uses the concepts of Deep Learning and Computer Vision to detect face masks in real-time video streams.
 
 
@@ -36,10 +36,12 @@ All the dependencies and required libraries are included in the file [requiremen
 2. To detect face masks in real-time video streams type the following command:
 > $ python MaskDetectionVideoCapture.py 
 
-# ✅ Results
-My model gave 99% accuracy!
+# ✅ Results(Test Accuracy: 99.7 %)
+My model gave 99.7% accuracy! You can see output [here](https://github.com/rumysac/FaceMaskDetection/blob/main/Outputs/TerminalSavedOutput). 
 I got the following accuracy/loss training curve plot.
-![plot](https://raw.githubusercontent.com/rumysac/FaceMaskDetection/main/plot.png)
+![plot](https://raw.githubusercontent.com/rumysac/FaceMaskDetection/main/Outputs/Figure_1.png)
+![plot2](https://raw.githubusercontent.com/rumysac/FaceMaskDetection/main/Outputs/Figure_12.png)
+![plot3](https://raw.githubusercontent.com/rumysac/FaceMaskDetection/main/Outputs/Figure_13.png)
 
 # REFERENCE
 
