@@ -16,10 +16,8 @@ My face mask detector did not use any morphed masked visual datasets. The model 
 Therefore, this system can be used in real-time applications that require face mask detection for security purposes due to the Covid-19 outbreak.
 
 # 📔 Dataset
-The dataset used can be downloaded [here](https://www.kaggle.com/ashishjangra27/face-mask-12k-images-dataset)
-This dataset consists of 3835 images belonging to two classes:
-* with_mask: 1916 images
-* without_mask: 1919 images
+The dataset used can be downloaded [here](https://www.kaggle.com/ashishjangra27/face-mask-12k-images-dataset). 
+This dataset is used for Face Mask Detection Classification with images. The dataset consists of almost 12K images which are almost 328.92MB in size.
 
 # 🔐 Prerequisites
 All the dependencies and required libraries are included in the file [requirements.txt](https://github.com/rumysac/FaceMaskDetection/blob/main/requirements.txt)
@@ -30,13 +28,13 @@ All the dependencies and required libraries are included in the file [requiremen
 2. Change your directory to the cloned repo
 > $ cd FaceMaskDetection
 3. Now, run the following command in your Terminal/Command Prompt to install the libraries required
-> $ pip3 install -r requirements.txt
+> $ pip install -r requirements.txt
 
 # 💻 Working
 1. Open terminal. Go into the cloned project directory and type the following command:
-> $ python3 MaskDetectionTrain.py
+> $ python FaceMaskDetectionTrain.py.py
 2. To detect face masks in real-time video streams type the following command:
-> $ python3 MaskDetectionVideoCapture.py 
+> $ python MaskDetectionVideoCapture.py 
 
 # ✅ Results
 My model gave 99% accuracy!
