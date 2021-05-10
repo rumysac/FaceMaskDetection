@@ -9,11 +9,10 @@ from tensorflow.keras.applications import DenseNet201
 from tensorflow.keras import optimizers
 from tensorflow.keras.losses import CategoricalCrossentropy
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
-from tensorflow.keras.applications import MobileNetV2
 from tensorflow.keras.layers import AveragePooling2D
 from tensorflow.keras.layers import Input
 from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
+from tensorflow.keras.applications.densenet import preprocess_input
 from tensorflow.keras.utils import to_categorical
 from sklearn.preprocessing import LabelBinarizer
 from sklearn.model_selection import train_test_split
