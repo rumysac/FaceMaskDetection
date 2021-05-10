@@ -8,7 +8,7 @@
 * [Caffe-Based Face Detector](https://caffe.berkeleyvision.org)
 * [Keras](https://keras.io)
 * [TensorFlow](https://www.tensorflow.org)
-* [MobileNetV2](https://arxiv.org/abs/1801.04381)
+* [DenseNet201](https://towardsdatascience.com/review-densenet-image-classification-b6631a8ef803)
 
 # 💡 Features
 My face mask detector did not use any morphed masked visual datasets. The model is accurate and since I use the MobileNetV2 architecture, it is also computationally efficient and hence makes it easy to deploy the model to embedded systems (Raspberry Pi, Google Coral, etc.).
@@ -32,7 +32,7 @@ All the dependencies and required libraries are included in the file [requiremen
 
 # 💻 Working
 1. Open terminal. Go into the cloned project directory and type the following command:
-> $ python FaceMaskDetectionTrain.py.py
+> $ python FaceMaskDetectionTrain.py
 2. To detect face masks in real-time video streams type the following command:
 > $ python MaskDetectionVideoCapture.py 
 
@@ -42,7 +42,8 @@ I got the following accuracy/loss training curve plot.
 ![plot](https://raw.githubusercontent.com/rumysac/FaceMaskDetection/main/Outputs/Figure_1.png)
 ![plot2](https://raw.githubusercontent.com/rumysac/FaceMaskDetection/main/Outputs/Figure_12.png)
 ![plot3](https://raw.githubusercontent.com/rumysac/FaceMaskDetection/main/Outputs/Figure_13.png)
-
+## Confusion Matrix
+![matrix](https://raw.githubusercontent.com/rumysac/FaceMaskDetection/main/Outputs/Figure_14.png)
 # REFERENCE
 
 * > https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/
