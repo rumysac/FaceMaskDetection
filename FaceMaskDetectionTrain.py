@@ -23,9 +23,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os
 
-DIRECTORY1 = r"/Users/rumeysacelik/Desktop/FaceMaskDetection2/FaceMaskDataset/Train/"
-DIRECTORY2 = r"/Users/rumeysacelik/Desktop/FaceMaskDetection2/FaceMaskDataset/Validation/"
-DIRECTORY3 = r"/Users/rumeysacelik/Desktop/FaceMaskDetection2/FaceMaskDataset/Test"
+DIRECTORY1 = r"/Users/rumeysacelik/Desktop/RealTimeFaceMaskDetection/FaceMaskDataset/Train/"
+DIRECTORY2 = r"/Users/rumeysacelik/Desktop/RealTimeFaceMaskDetection/FaceMaskDataset/Validation/"
+DIRECTORY3 = r"/Users/rumeysacelik/Desktop/RealTimeFaceMaskDetection/FaceMaskDataset/Test"
 CATEGORIES = ["WithMask", "WithoutMask"]
 
 # grab the list of images in our dataset directory, then initialize
@@ -170,8 +170,6 @@ plt.legend(loc='upper right')
 plt.xlabel('Epoch')
 plt.ylabel('Loss - Cross Entropy')
 plt.title('Train and Validation Loss')
-
-
 plt.show()
 
 plt.plot(history.history['accuracy'], label='Train Accuracy')
@@ -209,7 +207,7 @@ for i in range(num_imgs):
     pred = predict[i]
     axs[i].axis('off')
     lab, pred = np.argmax(lab), np.argmax(pred)
-    axs[i].set_title(label = f'y: {lab_names[lab]}  |  y_pred: {lab_names[pred]}', fontsize=14)
+    axs[i].set_title(label = f'y: {lab_names[lab]}  |  y_pred: {lab_names[pred]}', fontsize=11)
 
 plt.show()
 
@@ -222,5 +220,6 @@ fig, ax = plt.subplots(figsize=(25,10))
 sns.heatmap(Confusion_Matrix,xticklabels=CLASSES,yticklabels=CLASSES, ax=ax, annot=True,fmt="1.0f",cbar=False,annot_kws={"size": 40})
 ax.set_xlabel('Predicted labels');ax.set_ylabel('True labels');
 plt.title("Confusion matrix",fontsize=30)
+plt.show()
 
 model.save('mymodel.h5')
