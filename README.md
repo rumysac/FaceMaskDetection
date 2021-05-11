@@ -11,9 +11,9 @@
 * [DenseNet201](https://towardsdatascience.com/review-densenet-image-classification-b6631a8ef803)
 
 # 💡 Features
-My face mask detector did not use any morphed masked visual datasets. The model is accurate and since I use the MobileNetV2 architecture, it is also computationally efficient and hence makes it easy to deploy the model to embedded systems (Raspberry Pi, Google Coral, etc.).
+My face mask sensor did not use any morphed masked visual datasets. The model is correct and I used DenseNet201 architecture.
 
-Therefore, this system can be used in real-time applications that require face mask detection for security purposes due to the Covid-19 outbreak.
+This system can be used in real-time applications that require face mask detection for security purposes due to the Covid-19 outbreak.
 
 # 📔 Dataset
 The dataset used can be downloaded [here](https://www.kaggle.com/ashishjangra27/face-mask-12k-images-dataset). 
