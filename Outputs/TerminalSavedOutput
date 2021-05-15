@@ -1,4 +1,4 @@
-Last login: Mon May 10 17:28:33 on ttys000
+Last login: Sat May 15 16:26:12 on ttys000
 rumeysacelik@Rumeysas-MacBook-Pro RealTimeFaceMaskDetection % python FaceMaskDetectionTrain.py
 [INFO] loading images...
 Found 10000 images belonging to 2 classes.
@@ -6,7 +6,7 @@ Found 800 images belonging to 2 classes.
 Found 992 images belonging to 2 classes.
 Found 10000 images belonging to 2 classes.
 Found 800 images belonging to 2 classes.
-2021-05-10 17:29:30.057331: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+2021-05-15 17:42:55.208227: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
 To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
 Model: "model"
 __________________________________________________________________________________________________
@@ -1536,42 +1536,44 @@ Total params: 34,052,162
 Trainable params: 15,730,178
 Non-trainable params: 18,321,984
 __________________________________________________________________________________________________
-2021-05-10 17:29:33.746526: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-05-15 17:42:58.964505: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
 Epoch 1/8
-157/157 [==============================] - 337s 2s/step - loss: 7.2512 - accuracy: 0.9534 - val_loss: 0.0172 - val_accuracy: 0.9962
+157/157 [==============================] - 347s 2s/step - loss: 10.2425 - accuracy: 0.9342 - val_loss: 0.0261 - val_accuracy: 0.9925
 
-Epoch 00001: accuracy improved from -inf to 0.95340, saving model to mymodel.h5
+Epoch 00001: accuracy improved from -inf to 0.93420, saving model to mymodel.h5
 Epoch 2/8
-157/157 [==============================] - 312s 2s/step - loss: 0.0732 - accuracy: 0.9804 - val_loss: 0.0127 - val_accuracy: 0.9937
+157/157 [==============================] - 323s 2s/step - loss: 0.0801 - accuracy: 0.9772 - val_loss: 0.0129 - val_accuracy: 0.9912
 
-Epoch 00002: accuracy improved from 0.95340 to 0.98040, saving model to mymodel.h5
+Epoch 00002: accuracy improved from 0.93420 to 0.97720, saving model to mymodel.h5
 Epoch 3/8
-157/157 [==============================] - 326s 2s/step - loss: 0.0540 - accuracy: 0.9839 - val_loss: 0.0107 - val_accuracy: 0.9950
+157/157 [==============================] - 318s 2s/step - loss: 0.0568 - accuracy: 0.9808 - val_loss: 0.0145 - val_accuracy: 0.9962
 
-Epoch 00003: accuracy improved from 0.98040 to 0.98390, saving model to mymodel.h5
+Epoch 00003: accuracy improved from 0.97720 to 0.98080, saving model to mymodel.h5
 Epoch 4/8
-157/157 [==============================] - 324s 2s/step - loss: 0.0483 - accuracy: 0.9843 - val_loss: 0.0108 - val_accuracy: 0.9975
+157/157 [==============================] - 5669s 36s/step - loss: 0.0536 - accuracy: 0.9823 - val_loss: 0.0189 - val_accuracy: 0.9950
 
-Epoch 00004: accuracy improved from 0.98390 to 0.98430, saving model to mymodel.h5
+Epoch 00004: accuracy improved from 0.98080 to 0.98230, saving model to mymodel.h5
 Epoch 5/8
-157/157 [==============================] - 323s 2s/step - loss: 0.0604 - accuracy: 0.9848 - val_loss: 0.0133 - val_accuracy: 0.9962
+157/157 [==============================] - 973s 2s/step - loss: 0.0502 - accuracy: 0.9829 - val_loss: 0.0338 - val_accuracy: 0.9962
 
-Epoch 00005: accuracy improved from 0.98430 to 0.98480, saving model to mymodel.h5
+Epoch 00005: accuracy improved from 0.98230 to 0.98290, saving model to mymodel.h5
 Epoch 6/8
-157/157 [==============================] - 321s 2s/step - loss: 0.0412 - accuracy: 0.9864 - val_loss: 0.0127 - val_accuracy: 0.9962
+157/157 [==============================] - 313s 2s/step - loss: 0.0433 - accuracy: 0.9852 - val_loss: 0.0177 - val_accuracy: 0.9937
 
-Epoch 00006: accuracy improved from 0.98480 to 0.98640, saving model to mymodel.h5
+Epoch 00006: accuracy improved from 0.98290 to 0.98520, saving model to mymodel.h5
 Epoch 7/8
-157/157 [==============================] - 441s 3s/step - loss: 0.0410 - accuracy: 0.9857 - val_loss: 0.0095 - val_accuracy: 0.9950
+157/157 [==============================] - 313s 2s/step - loss: 0.0637 - accuracy: 0.9806 - val_loss: 0.0250 - val_accuracy: 0.9950
 
-Epoch 00007: accuracy did not improve from 0.98640
+Epoch 00007: accuracy did not improve from 0.98520
 Epoch 8/8
-157/157 [==============================] - 330s 2s/step - loss: 0.0378 - accuracy: 0.9876 - val_loss: 0.0081 - val_accuracy: 0.9950
+157/157 [==============================] - 319s 2s/step - loss: 0.0478 - accuracy: 0.9836 - val_loss: 0.0098 - val_accuracy: 0.9950
 
-Epoch 00008: accuracy improved from 0.98640 to 0.98760, saving model to mymodel.h5
+Epoch 00008: accuracy did not improve from 0.98520
+Epoch 00008: early stopping
 
 *** Fit is over ***
 Found 992 images belonging to 2 classes.
-31/31 [==============================] - 30s 967ms/step - loss: 0.0059 - accuracy: 0.9970
+31/31 [==============================] - 30s 964ms/step - loss: 0.0115 - accuracy: 0.9970
 Test Accuracy:   99.7 %
+
 rumeysacelik@Rumeysas-MacBook-Pro RealTimeFaceMaskDetection % 
